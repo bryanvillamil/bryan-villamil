@@ -5,11 +5,11 @@ import { ContentStack, StackCarousel, Box } from "./styledComponents";
 interface StackProps {
   data: {
     title: string;
-    tools: [{
+    tools: {
       id: number;
       name?: string;
       logo?: string;
-    }]
+    }[]
   }
 }
 
