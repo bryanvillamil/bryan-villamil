@@ -28,6 +28,14 @@ export const Button = styled.button`
   &:hover{
     background: rgba(0, 0, 0, 0.6);
   }
+  &.active {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: 0px 4px;
+    &:hover{
+      background: rgba(0, 0, 0, 0.9);;
+    }
+  }
   ${(props) => props.active && css`
     background: rgba(0, 0, 0, 0.6);
     color: white;

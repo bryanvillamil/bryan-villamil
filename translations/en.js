@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 export const en = {
   title: 'ingles',
   welcomeTitle: '¡Hello World!',
